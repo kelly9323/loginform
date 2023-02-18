@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 595px;
+  margin: 80px auto 0;
+  width: 84%;
+  padding: 10px 20px 30px;
+}
+.h1 {
+  margin-bottom: 18px;
+  color: white;
+  font-size: 30px;
+}
+
+.h1,
+.form {
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.field,
+.buttonLog {
+  max-width: 557px;
+  width: 100%;
+  margin: 6px;
+  border-radius: 6px;
+  border: none;
+  padding: 21px 23px;
+  height: 68px;
+  font-size: 16px;
+}
+.field{
+  color: #9CA8B7;
+}
+
+.buttonLog {
+  color: white;
+  background-color: #28d2d0;
+  font-size: 16px;
+}
+
